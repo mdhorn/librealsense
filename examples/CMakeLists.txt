@@ -109,6 +109,9 @@ target_link_libraries(cpp-restart ${DEPENDENCIES})
 add_executable(cpp-stride cpp-stride.cpp)
 target_link_libraries(cpp-stride ${DEPENDENCIES})
 
+add_executable(realsense-get-devices realsense-get-devices.cpp)
+target_link_libraries(realsense-get-devices ${DEPENDENCIES})
+
 install(
     TARGETS
     c-tutorial-1-depth
