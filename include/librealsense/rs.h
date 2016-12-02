@@ -90,6 +90,7 @@ typedef enum rs_preset
     RS_PRESET_BEST_QUALITY     ,
     RS_PRESET_LARGEST_IMAGE    ,
     RS_PRESET_HIGHEST_FRAMERATE,
+    RS_PRESET_BEST_STABILITY   ,
     RS_PRESET_COUNT
 } rs_preset;
 

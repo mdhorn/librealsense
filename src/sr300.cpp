@@ -78,6 +78,7 @@ namespace rsimpl
             info.presets[RS_STREAM_DEPTH   ][i] = {true, 640, 480, RS_FORMAT_Z16, 60, RS_OUTPUT_BUFFER_FORMAT_CONTINUOUS};
             info.presets[RS_STREAM_INFRARED][i] = {true, 640, 480, RS_FORMAT_Y16, 60, RS_OUTPUT_BUFFER_FORMAT_CONTINUOUS};
         }
+        info.presets[RS_STREAM_COLOR][RS_PRESET_BEST_STABILITY] = {true, 640, 480, RS_FORMAT_RGB8, 30, RS_OUTPUT_BUFFER_FORMAT_CONTINUOUS};
 
         info.options = {
             {RS_OPTION_SR300_AUTO_RANGE_ENABLE_MOTION_VERSUS_RANGE, 0.0,              2.0,                                       1.0,   -1.0},
